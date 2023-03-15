@@ -37,7 +37,11 @@ For nominal variables like workclass, marital-status, occupation, relationship, 
 
 #### Question 1 (5 points): 
 
-Encodings and Distance To represent nominal attributes, we apply a one-hot encoding technique – transforming each possible value into its own binary attribute. For example, if we have an attribute workclass with three possible values Private, State-gov, Never-worked – we would binarize the workclass attribute as shown below (each row is a single example data point).
+Encodings and Distance To represent nominal attributes, we apply a one-hot encoding technique – transforming each possible value into its own binary attribute. For example, if we have an attribute workclass with three possible values Private, State-gov, Never-worked – we would binarize the workclass attribute as shown below (each row is a single example data point):
+
+![image](https://user-images.githubusercontent.com/911695/225389780-10a34311-051e-425e-aa50-4708f1c15773.png)
+
+![image](https://user-images.githubusercontent.com/911695/225389838-98484429-b03f-4e4e-a238-c79d79d6e031.png)
 
 A common naive preprocessing is to treat all categoric variables as ordinal – assigning increasing integers to each possible value. For example, such an encoding would say 1=Private, 2=State-gov, and 3=Neverworked. Contrast these two encodings. Focus on how each choice affects Euclidean distance in kNN.
 
@@ -48,6 +52,9 @@ What percent of the training data has an income >50k? Explain how this might aff
 #### Question 3 (5 points)
 
 Distances and vector norms are closely related concepts. For instance, an L2 norm of a vector x (defined below) can be intepretted as the Euclidean distance between x and the zero vector.
+
+![image](https://user-images.githubusercontent.com/911695/225389533-01b8e367-3631-4952-a2fa-5c80ad58ef13.png)
+
 
 Given a new vector z, show that the Euclidean distance between x and z can be written as an L2 norm. [kNN implementation note for later, you can compute norms efficiently with numpy using np.linalg.norm]
 
