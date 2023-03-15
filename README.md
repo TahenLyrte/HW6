@@ -92,6 +92,20 @@ Questions:
 - What trends (train and cross-valdiation accuracy rate) do you observe with increasing k? 
 - How do they relate to underfitting and overfitting?
 
+#### Bonus Question 1 (10 points)
 
+Code at the end of main() outputs predictions for the test set to test_predicted.csv. Decide on hyperparameters and add your submission set of predictions to your repository. Predictions are formatted as a two-column CSV as below:
 
+id,income
 
+0,0
+
+1,0
+
+2,1
+
+.
+
+.
+
+You must beat 77% to get 5 points and 83% to get 10 points.
