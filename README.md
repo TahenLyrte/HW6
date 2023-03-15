@@ -6,7 +6,7 @@
 2. Upload it to a folder called HW6 in your Artificial-Inteligence-Spring-2023 repository (don't branch first).
 3. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW6”, do all of your work for this homework in the HW6 branch.
 
-#### kNN
+#### Part 1. kNN
 
 In this homework, we’ll implement our first machine learning algorithm of the course – k Nearest Neighbors. We are considering a binary classification problem where the goal is to classify whether a person has an annual income more or less than $50,000 given census information. As no validation split is provided, you’ll need to perform cross-validation to fit good hyperparameters.
 
