@@ -1,4 +1,10 @@
-# HW6
+## HW6 Due March 25th, 2023
+
+#### Part 0. (2 points) Complete this before changing any files.
+
+1. Download a zip of the HW6 repository. (https://github.com/andrewboes/HW6)
+2. Upload it to a folder called HW6 in your Artificial-Inteligence-Spring-2023 repository (don't branch first).
+3. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW6”, do all of your work for this homework in the HW6 branch.
 
 #### kNN
 
@@ -109,3 +115,15 @@ id,income
 .
 
 You must beat 77% to get 5 points and 83% to get 10 points.
+
+#### Part 3. (2 point) Do not complete until you are mostly finsihed with the assignment.
+
+Add a text file to the HW6 folder called “feedback.txt” and answer the following:
+
+1. Approximately how many hours did you spend on this assignment?
+2. Would you rate it as easy, moderate, or difficult?
+3. Did you work on it mostly alone or did you discuss the problems with others?
+4. How deeply do you feel you understand the material it covers (0%–100%)?
+5. Any other comments?
+
+Create a pull request from the HW6 branch to main and assign me as the reviewer.
