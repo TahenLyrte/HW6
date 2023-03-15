@@ -80,13 +80,17 @@ For simplicity, you can assume num_folds evenly divides the number of training e
 
 To search for the best hyperpameters, run 4-fold cross-validation to estimate our accuracy. For each k in 1,3,5,7,9,99,999,and 8000, report:
 
-• accuracy on the training set when using the entire training set for kNN (call this training accuracy),
+- accuracy on the training set when using the entire training set for kNN (call this training accuracy),
 
-• the mean and variance of the 4-fold cross validation accuracies (call this validation accuracy).
+- the mean and variance of the 4-fold cross validation accuracies (call this validation accuracy).
 
 Skeleton code for this is present in main() and labeled as Q9 Hyperparmeter Search. Finish this code to generate these values – should likely make use of predict, accuracy, and cross_validation.
 
-Questions: What is the best number of neighbors (k) you observe? When k = 1, is training error 0%? Why or why not? What trends (train and cross-valdiation accuracy rate) do you observe with increasing k? How do they relate to underfitting and overfitting?
+Questions: 
+- What is the best number of neighbors (k) you observe? 
+- When k = 1, is training error 0%? Why or why not? 
+- What trends (train and cross-valdiation accuracy rate) do you observe with increasing k? 
+- How do they relate to underfitting and overfitting?
 
 
 
